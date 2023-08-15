@@ -1,0 +1,62 @@
+/* This code is made by Anneshu Nag, Student ID- 2210994760  */
+/*                    Dated- 12/08/2023                      */
+
+/* Apply these styles to all elements in the document */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for the container */
+.container {
+  opacity: 1;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  background-color: silver;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Create a flex container for alignment */
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Add margin to input elements inside the flex container */
+.flex-container input[type="email"] {
+  margin-right: 10px;
+}
+
+/* Apply styles to the label */
+label {
+  color: black;
+}
+
+/* Apply styles to the input field */
+input[type="email"] {
+  padding: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Apply styles to the button */
+button {
+  padding: 5px 15px;
+  background-color: rgb(105, 102, 102);
+  color: black;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Apply styles to the button on hover */
+button:hover {
+  background-color: rgb(51, 48, 48);
+  color: white;
+}
