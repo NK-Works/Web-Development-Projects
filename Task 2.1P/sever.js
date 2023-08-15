@@ -43,8 +43,6 @@ myApp.post('/subscribe', (req, res) => {
     }
     console.log('Email sent successfully:',body); // Log the response from Mailgun
     res.sendFile(__dirname + '/index.html'); // Send back the 'index.html' file as the response
-    
-    // return res.status(200).send('Email Sent'); // Send back the success message (Alternate Option)
   });
 });
 
