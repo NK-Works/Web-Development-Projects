@@ -12,22 +12,18 @@ dotenv.config();
 // Function to configure the Mailgun client
 const mailgun = () =>
   mg({
-    apiKey: process.env.MAILGUN_API_KEY, // Load API key from environment variables
-    domain: process.env.MAILGUN_DOMAIN, // Load domain from environment variables
+    apiKey: process.env.MAILGUN_API_KEY,
+    domain: process.env.MAILGUN_DOMIAN,
   });
 
 // Create an instance of the Express application
 const app = express();
-
 // Configure middleware to parse JSON and URL-encoded request bodies
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
 // Define a route for handling POST requests to '/api/email'
 app.post('/api/email', (req, res) => {
-  const { email, subject, message } = req.body;
-
-  // Use the mailgun() function to send an email
+  const { email } = req.body;
   mailgun()
     .messages()
     .send(
@@ -48,11 +44,10 @@ app.post('/api/email', (req, res) => {
       }
     );
 });
-
 // Define the port to listen on (fallback to 3000 if PORT is not defined in environment)
 const port = process.env.PORT || 3000;
 
-// Start the server and listen on the specified port
+// Define the port to listen on (fallback to 3000 if PORT is not defined in environment)
 app.listen(port, () => {
-  console.log(`Server is listening at http://localhost:${port}`);
-});
+  console.log(`serve at http://localhost:${port}`);
+}); 
