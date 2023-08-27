@@ -1,0 +1,177 @@
+/* Setting the page margin to zero */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* The body of the page */
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation area */
+.navArea {
+    flex-wrap: wrap;
+    position: relative;
+    padding: 10px;
+    background-color: lightslategray;
+}
+
+/* Navigation bar */
+.navigation_bar {
+    padding: 10px;
+}
+
+/* Navigation cell */
+.navigation_bar,
+a {
+    font-size: 18px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+/* Hover upon the navigation cell */
+a:hover {
+    border-radius: 35px;
+    background-color: whitesmoke;
+}
+
+/* Introductory image space */
+.introImage
+{
+	width: 100%;
+}
+
+/* Image */
+.uniDeakin
+{
+    width: 100%;
+}
+
+/* Introductory statement */
+.introImage .myIntro
+{
+    width: 100%;
+    height: 10%;
+    bottom: 120px;
+    left: 0px;
+    position: relative;
+    color: whitesmoke;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition:all 0.4s ease-in;
+    opacity: 0;
+}
+
+/* Hover upon the image */
+.introImage:hover .myIntro
+{
+    opacity: 0.5;
+    flex-wrap: wrap;
+    max-width: 100%;
+    bottom: 120px;
+}
+
+/* Detailed introduction */
+.detailedIntro
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* My image */
+.detailedIntro img 
+{
+    height: 300px;
+    width:220px;
+    border-radius: 50%/25%;
+}
+
+/* My works introduction */
+.details
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+/* Para 1 of the details */
+.details p1 
+{
+    color: darkslategray;
+    font-weight: bold;
+}
+
+/* Para 2 of the details */
+.details p2
+{
+    color:darkslategray;
+    font-weight: bold;
+}
+
+/* Space for the porjects */
+.myProjects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+/* Images and details of the projects */
+.Projimage {
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+/* Description of the projects */
+.desc {
+    max-width: 285px;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    padding:50px
+}
+/* My gallary */
+.details2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+/* Para 1 (4) of the gallary beginning */
+.details2 p4
+{
+    color: darkslategray;
+    font-weight: bold;
+}
+
+/* Photos */
+.firstRow
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    vertical-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstRow img
+{
+    margin: 5px;
+    border-radius: 20px;
+}
