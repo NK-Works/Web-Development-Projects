@@ -47,7 +47,6 @@ app.post('/api/email', (req, res) => {
 // Define the port to listen on (fallback to 3000 if PORT is not defined in environment)
 const port = process.env.PORT || 3000;
 
-// Define the port to listen on (fallback to 3000 if PORT is not defined in environment)
 app.listen(port, () => {
   console.log(`serve at http://localhost:${port}`);
 }); 
