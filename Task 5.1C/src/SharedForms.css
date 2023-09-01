@@ -93,18 +93,16 @@ textarea {
   /* Adjust font size for smaller screens */
   .mainTitle,
   .title,
-  .iiput,
+  .givenInput,
   .problem,
   .tags,
-  .button,
-  .button .pl,
   .abstract,
   .article {
     font-size: 1rem;
   }
 
   /* Adjust width and margin for smaller screens */
-  .iiput {
+  .givenInput {
     width: 100%;
     margin-left: 0;
   }
