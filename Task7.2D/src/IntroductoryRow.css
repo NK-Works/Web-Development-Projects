@@ -1,0 +1,132 @@
+/* This code is made by Anneshu Nag, Student ID- 2210994760  */
+/*                    Dated- 21/09/2023                      */
+
+/* Styling for the 'rowBackground' class */
+.rowBackground {
+    display: flex;
+    flex-wrap: wrap;
+    /* Add padding to the top, right, and bottom, and left of the container */
+    padding: 11px 50px 20px;
+    /* Align items vertically to stretch and justify items with space in between */
+    align-items: stretch;
+    justify-content: space-between;
+    background-color: #d0d0d0;
+}
+
+/* Styling for the 'deakin' class */
+.deakin {
+    margin: 0 30px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    /* Remove text decoration and add transition for border color change */
+    text-decoration: none;
+    transition: border-bottom-color 0.3s ease;
+}
+
+.deakin a{
+ text-decoration: none;
+ color: black;
+}
+
+/* Styling for the 'deakin' class when hovered */
+.deakin:hover {
+    border-bottom-color: black;
+}
+
+/* Styling for the 'searchBox' class */
+.searchBox {
+    align-items: center;
+    flex: 1;
+    /* Set the width to 60% of the viewport width */
+    width: 62vw;
+    padding-right: 10px;
+}
+
+/* Styling for the 'searchBar' class */
+.searchBar {
+    /* Set the width to 60% of the viewport width */
+    width: 50vw;
+    display: inline-block;
+    height: 128%;
+    border: none;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+/* Placing the magnifying glass*/
+.searchBar {
+    background-image: url("../public/SearchGlass.png");
+    background-repeat: no-repeat;
+    background-position: left center; 
+    padding-left: 35px; 
+}
+
+/* Styling for the 'buttons' class */
+.buttons {
+    /* Inherit the height from the parent container */
+    height: inherit;
+}
+
+
+.questionButton {
+    margin-right: 50px;
+    max-width: 120px;
+    height: 123%;
+    /* Set transparent background and remove border with !important */
+    background: transparent;
+    border: none !important;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+/* Styling for the 'postButton' and 'loginButton' classes */
+.postButton,
+.loginButton{
+    max-width: 80px;
+    height: 123%;
+    /* Set transparent background and remove border with !important */
+    background: transparent;
+    border: none !important;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Styling for the 'postButton' and 'loginButton' classes when hovered */
+.postButton:hover,
+.loginButton:hover, .questionButton:hover {
+    background-color: #909090;
+    border-radius: 3px;
+}
+
+/* Media query for screens with maximum width of 768px */
+@media (max-width: 768px) {
+
+    /* Adjust styles for smaller screens */
+    .rowBackground {
+        /* Align items vertically and change flex direction to column */
+        align-items: center;
+        flex-direction: column;
+        padding: 2px;
+    }
+
+    .deakin {
+        margin: 5px 5px;
+    }
+
+    .searchBar {
+        /* Set maximum width to 100% for responsiveness */
+        max-width: 100%;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 5px;
+    }
+}
