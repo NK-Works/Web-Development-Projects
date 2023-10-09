@@ -25,7 +25,8 @@ function App() {
       localStorage.setItem('isAuthenticated', 'false');
       await auth.signOut();
       setIsAuthenticated(false);
-      
+      // Clear the isAuthenticated state in localStorage
+      localStorage.removeItem('isAuthenticated');
       navigate('/');
       window.location.reload(true);
     }
@@ -34,7 +35,7 @@ function App() {
     // Set authentication state and store it in local storage
     localStorage.setItem('isAuthenticated', 'true');
     setIsAuthenticated(true);
-
+    
     // Redirect to the home page
     navigate('/home');
   };
