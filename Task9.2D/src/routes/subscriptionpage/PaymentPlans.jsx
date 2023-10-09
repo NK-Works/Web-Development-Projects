@@ -80,7 +80,7 @@ function Plan() {
             style={{ marginTop: '18.9px' }} 
             value="price_1NzR5YSAYf9iHCQb11hxXiC3"
             onClick={(e) => packageHandler(e)}
-            id="5"
+            id="399"
             name="Pro"
             className="plan-button"
           >
@@ -110,7 +110,7 @@ function Plan() {
           <button
             value="price_1NzR5YSAYf9iHCQbJHMhjzB4"
             onClick={(e) => packageHandler(e)}
-            id="10"
+            id="599"
             name="Premium"
             className="plan-button"
           >
