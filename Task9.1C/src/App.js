@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Routes, Route, Outlet, useNavigate, useLocation } from 'react-router-dom';
+import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import './App.css';
 import IntroductoryRow from './IntroductoryRow.jsx';
 import PostPage from './routes/postpage/PostPage.jsx';
@@ -19,7 +19,8 @@ function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(localStorage.getItem('isAuthenticated') === 'true');
 
   const handleLogout = async() => {
-    if (window.confirm('Are you sure you wish to logout?')) {
+    const user = auth.currentUser;
+    if (window.confirm(`Are you sure you wish to logout of ${user.email}?`)) {
       // Clear authentication state and local storage
       localStorage.setItem('isAuthenticated', 'false');
       await auth.signOut();
@@ -56,7 +57,7 @@ function App() {
         ) : null}
         
         {/* Catch-all route */}
-        <Route path='/*' element={<Outlet />} />
+         <Route path='*' element={<h1>OOPS! Error 404: Content Not Available!</h1>} />
       </Routes>
     </div>
   );
