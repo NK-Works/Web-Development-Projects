@@ -24,8 +24,8 @@ function App() {
     const user = auth.currentUser;
     if (window.confirm(`Are you sure you wish to logout of ${user.email}?`)) {
       await auth.signOut();
+      localStorage.setItem('isAuthenticated', 'false');
       setIsAuthenticated(false);
-      
       navigate('/');
       window.location.reload(true);
     }
