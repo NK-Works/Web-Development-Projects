@@ -1,0 +1,174 @@
+/* Style for the Plan component */
+.plan-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.plan-header {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.plan-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.plan-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-card {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.plan-card h2 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.plan-price {
+  font-size: 1.5rem;
+  color: #007BFF;
+  margin-top: 10px;
+}
+
+.plan-features {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.plan-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.plan-button:hover {
+  background-color: #0056b3;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .plan-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan-card {
+    margin: 10px 0;
+  }
+}
+
+/* Style for the PaymentWindow Popup */
+.payment-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's on top of other content */
+}
+
+/* Style for the PaymentWindow Popup */
+.payment-popup {
+  background-color: #fff;
+  padding: 10px; /* Increased padding for more space */
+  border-radius: 15px; /* Rounded corners for a smoother look */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Improved box shadow */
+  max-width: 100%; /* Make the popup slightly larger */
+  overflow-y: auto; /* Add scrollbar if content overflows */
+}
+
+
+/* CSS for PaymentWindow Popup */
+.payWinPopUp {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  min-width: 300px;
+  max-width: 90%;
+  overflow-y: auto;
+  text-align: center;
+  z-index: 9999;
+}
+
+/* Close button styling */
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 22px;
+  padding-right: 5px;
+  font-weight: bold;
+  color: #161616;
+}
+
+/* Package type styling */
+.packType {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Amount display styling */
+.amountDisplay {
+  margin-top: -5px;
+  font-size: 20px;
+  margin-bottom: -4px;
+  display: block;
+  background-color: gainsboro;
+}
+
+/* Checkout button styling */
+.checkOutButton {
+  background-color: #316399;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.checkOutButton:hover {
+  background-color: #0172eb;
+}
+
