@@ -1,0 +1,113 @@
+/* This code is made by Anneshu Nag, Student ID- 2210994760  */
+/*                    Dated- 21/09/2023                      */
+
+/* Style for the login page container */
+.loginPage {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    width: 20vw;
+    min-width: 440px;
+    /* Ensure a minimum width for the container */
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    text-align: left;
+    margin: auto;
+    border: 2px #0295cf solid;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Style for the signup button container */
+.signupButton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 120px;
+    align-self: flex-end;
+    margin-right: 20px;
+}
+
+/* Style for the signup button */
+.signupButton button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: white;
+    color: #0295cf;
+    border: 2px #0295cf solid;
+    border-radius: 2px;
+}
+
+/* Hover effect for the signup button */
+.signupButton button:hover {
+    background-color: #0295cf;
+    color: white;
+}
+
+/* Style for email and password input containers */
+.emailInput,
+.passwordInput {
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: stretch;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+/* Style for email and password input fields */
+.emailInput Input,
+.passwordInput Input {
+    width: 94.3%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+/* Style for the login button container */
+.myloginButton {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+/* Style for the Google login button container */
+.googleLoginButton {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+/* Style for the login button */
+.myloginButton button,
+.googleLoginButton button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    background-color: #0295cf;
+}
+
+/* Hover effect for the login buttons */
+.myloginButton button:hover,
+.googleLoginButton button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for error messages */
+.error-message {
+    color: #ff0000;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+}

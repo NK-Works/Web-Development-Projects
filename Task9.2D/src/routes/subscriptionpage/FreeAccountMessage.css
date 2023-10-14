@@ -1,0 +1,36 @@
+.free-account {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 100px !important;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .free-account h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .free-account p {
+    color: #666;
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  
+  .upgrade-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .upgrade-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,77 @@
+/* Styling for the 'BlueArea' class */
+.BlueArea {
+    margin-top: 10px  !important;
+    padding-bottom: 50px  !important;
+    background-color: #06584e  !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styling for the 'MainDivisions' class */
+.MainDivisions {
+    max-width: 1000px;
+    width: 100%;
+}
+
+/* Styling for the 'MainHeaders' class */
+.MainHeaders {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Styling for the 'HorizontalCards' class */
+.HorizontalCards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
+
+/* Styling for the 'ListItems' class */
+.ListItems {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+    padding-inline-start: 10px;
+}
+
+/* Styling for anchor tags within the 'ListItems' class */
+.ListItems a {
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.ListItems a:hover{
+    color: white;
+}
+
+/* Styling for the 'LowerArea' class */
+.LowerArea {
+    width: 100%;
+    cursor: pointer;
+    color: black;
+}
+
+/* Styling for the 'LowerDivisions' class */
+.LowerDivisions {
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+/* Styling for anchor tags within the 'LowerDivisions' class */
+.LowerDivisions a {
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.LowerDivisions a:hover {
+    color: beige;
+}
+
+.LowerArea h1 a{
+    text-decoration: none;
+    color: black;
+}
