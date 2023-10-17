@@ -1,0 +1,173 @@
+/* This code is made by Anneshu Nag, Student ID- 2210994760  */
+/*                    Dated- 01/10/2023                      */
+
+/* Styles for the questions page container */
+.articlePage {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+  }
+  
+/* Styles for the page title */
+.articlePage h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Styles for the search input container */
+.articleSearcher {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+/* Styles for the search input field */
+.searchText {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the input field when focused */
+.searchText:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Style for the placeholder text in the search input field */
+.searchText::placeholder {
+    color: #999;
+} 
+
+/* Styles for the container displaying questions */
+.showArticles {
+    border: 1px solid #ddd;
+    width: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    display: inline-block;
+    align-items: center; 
+    text-align: center; 
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.article-card-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex: 33.33%;
+}
+/* Styles for the header of the question expansion */
+.expansionHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+/* Styles for the title within the expansion header */
+.expansionHeader h2 {
+    margin: 0;
+}
+
+/* Styles for tags within the question */
+.myAbstracts {
+    /* margin-top: 2px; */
+    width: 280px;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* Styles for tags within the question */
+.myTags {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+
+/* Styles for the delete button */
+.delButton {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Styles for the content within the question expansion */
+.myContent {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 1.0rem;
+    font-weight: bold;
+    overflow-y: auto; 
+}
+/* Styles for the article cards */
+/* .showArticles {
+    border: 1px solid #ddd;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    cursor: pointer;
+} */
+
+/* Styles for the header of the article expansion */
+/* .expansionHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    cursor: pointer;
+    background-color: #f0f0f0;
+    padding: 5px;
+} */
+
+/* Styles for the title within the expansion header */
+/* .expansionHeader h2 {
+    margin: 0;
+} */
+
+/* Styles for tags within the article */
+/* .myTags {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 15px;
+} */
+
+/* Styles for the delete button */
+/* .delButton {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px; 
+} */
+
+/* Styles for the content within the article expansion */
+/* .myContent {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 1.0rem;
+    font-weight: bold;
+    overflow-y: auto; 
+} */
+

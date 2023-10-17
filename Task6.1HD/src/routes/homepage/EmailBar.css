@@ -1,0 +1,56 @@
+/* This code is made by Anneshu Nag, Student ID- 2210994760  */
+/*                    Dated- 26/08/2023                      */
+
+/* Styling for the 'myForm' ID */
+#myForm {
+    /* Allow overflow content to be visible */
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #d0d0d0;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+/* Styling for input elements within the 'myForm' ID */
+#myForm input {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+/* Styling for button elements within the 'myForm' ID */
+#myForm button {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding: 5px 15px;
+    background-color: rgb(105, 102, 102);
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Styling for button elements within the 'myForm' ID when hovered */
+#myForm button:hover {
+    background-color: rgb(51, 48, 48);
+    color: white;
+}
+
+/* Styling for elements with class 'hide' */
+#myForm .hide {
+    /* Hide the element by setting visibility to hidden */
+    visibility: hidden;
+}
+
+/* Styling for elements with class 'hidden' */
+.hidden {
+    /* Hide the element by setting display to none */
+    display: none;
+}

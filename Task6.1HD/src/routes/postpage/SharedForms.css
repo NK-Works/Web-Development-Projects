@@ -1,0 +1,208 @@
+/* This code is made by Anneshu Nag, Student ID- 2210994760  */
+/*                    Dated- 01/09/2023                      */
+
+/* Define styles for mainTitle class */
+.mainTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  flex-direction: row;
+  height: 30px;
+  width: 100%;
+  max-width: 1000px;
+  font-weight: bold;
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 0px;
+}
+
+/* Define styles for secTitle class */
+.secTitle {
+  margin-top: 20px;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: row;
+  height: 30px;
+  width: 100%;
+  max-width: 1000px;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: inline-flex;
+  border-radius: 0px;
+}
+
+/* Define styles for givenInput class */
+.givenInput {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  word-spacing: 4px;
+  width: 900px;
+  margin-left: 50px;
+}
+
+/* Define styles for textarea */
+textarea {
+  max-height: 300px;
+  flex-wrap: wrap;
+}
+
+/* Define styles for problem class */
+.problem {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  word-spacing: 4px;
+  margin-top: 10px;
+  width: 1000px;
+  height: 500px;
+}
+
+/* Define styles for tags class */
+.tags {
+  margin-top: 10px;
+  width: 1000px;
+}
+
+/* Define styles for abstract class */
+.abstract {
+  white-space: pre-wrap;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  height: 100px;
+  width: 1000px;
+}
+
+/* Define styles for article class */
+.article {
+  white-space: pre-wrap;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  height: 300px;
+  width: 1000px;
+}
+
+.codeTitle {
+  margin-top: 20px;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+  max-width: 1000px;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: inline-flex;
+  border-radius: 0px;
+}
+
+/* Styles for sendingCode */
+.sendingCode {
+    width: 884px;
+    margin-left: 45px;
+    max-height: 300px;
+    border: 1px solid #686565;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Custom style for comments */
+.cm-comment {
+  color: green; /* Change the color of comments to green */
+  font-style: italic; /* Make comments italic */
+}
+
+/* Keywords */
+.cm-keyword {
+  color: #C678DD; /* Purple color for keywords */
+}
+
+/* Strings */
+.cm-string {
+  color: #ebcf32; /* Green color for strings */
+}
+
+/* Functions and Classes */
+.cm-def, .cm-tag {
+  font-weight: bold;
+}
+
+/* Variables */
+.cm-variable {
+  color: #2d93e6; /* Yellow color for variable names */
+}
+
+/* Styles for sendingCode when focused */
+.sendingCode:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+} 
+
+
+/* Define styles for the codePreview class */
+.codePreview {
+  white-space: pre-wrap; /* Preserve line breaks and spaces */
+  font-weight: 550;
+  font-size: 1.2em;
+  word-spacing: 4px;
+  margin-top: 20px;
+  width: 978px;
+  border: 1px solid #686565;
+  border-radius: 2px;
+  padding: 10px;
+  text-align: left;
+  background-color: #f0f0f0;
+  white-space: pre-wrap;
+  overflow-y: auto;
+  max-height: 500px; /*Adjust the height as needed */
+  margin-left: 13%;
+}
+
+.codePreview p {
+  /* Specific styles for paragraphs within the Markdown content */
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  white-space: pre-wrap; /* Preserve line breaks and spaces */
+  font-weight: 550;
+  /* Add any other styles you want */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust font size for smaller screens */
+  .mainTitle,
+  .title,
+  .iiput,
+  .problem,
+  .tags,
+  .button,
+  .button .pl,
+  .abstract,
+  .article {
+    font-size: 1rem;
+  }
+
+  /* Adjust width and margin for smaller screens */
+  .iiput {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /* Adjust width and height for smaller screens */
+  .problem,
+  .abstract,
+  .article {
+    width: 100%;
+    height: auto;
+  }
+}

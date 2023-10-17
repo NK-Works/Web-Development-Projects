@@ -1,0 +1,44 @@
+/* This code is made by Anneshu Nag, Student ID- 2210994760  */
+/*                    Dated- 26/08/2023                      */
+
+/* Styling for the 'myCollections' class */
+.myCollections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 -10px;
+  flex: 33.33%;
+}
+
+.myHeader {
+  display: block;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: #696a6b;
+  color: rgb(255, 255, 255);
+}
+
+/* Styling for the 'myButton' class */
+.myButton {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Styling for button elements within the 'myButton' class */
+.myButton button {
+  padding: 10px 20px;
+  background-color: #696a6b;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s; 
+}
+
+/* Styling for button elements within the 'myButton' class when hovered */
+.myButton button:hover {
+  background-color: #242323;
+  color: antiquewhite;
+}

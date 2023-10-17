@@ -1,0 +1,23 @@
+.yourShare {
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto;
+    max-width: 900px;
+  }
+  
+  .yourShare h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .query {
+    font-size: 40px;
+    color: #555;
+    margin: 20px 0;
+  }
+  

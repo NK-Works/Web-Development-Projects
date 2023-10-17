@@ -1,0 +1,383 @@
+/* Toast Container */
+.Toastify__toast-container {
+    position: fixed;
+    top: 20px;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .Toastify__toast--default {
+    background-color: #D61C4E;
+  }
+  
+  /* Main Container */
+  .mainStart {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading - "What do you want to ask or share" */
+  .askQuestion {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  /* Form for Input */
+  .formSub {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  /* Form Field Label */
+  .nameOfTiTle {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  /* Input Field */
+  .inputSize {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1rem;
+  }
+  
+  /* Submit Button */
+  .thisBut {
+    width: fit-content;
+    padding: 8px 20px;
+    background-color: #D61C4E;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.15rem;
+    cursor: pointer;
+  }
+  
+  /* Filter Input Fields Container */
+  .filterBegin {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  /* Search Input Field */
+  .inpFilBox {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    margin-right: 10px;
+  }
+  
+  /* Date Input Field */
+  .inpFilDate {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  /* Each Post Item */
+  .takeSub {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  /* Dropdown SVG Icons */
+  .theSize {
+    font-size: 1rem;
+  }
+  
+  /* Delete Button */
+  .deleterBut {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Like Button */
+  .checkMark {
+    cursor: pointer;
+  }
+  
+  /* Comments Section */
+  .commentTaker {
+    margin-top: 20px;
+  }
+  
+  /* Comment Input Area */
+  .commentTexthold {
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  /* Comment Button */
+  .commentBut {
+    padding: 3px;
+    background-color: #D61C4E;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  /* Container for Question Component */
+.question-container {
+    width: 80%;
+    margin: 0 auto; /* Center the component on the screen */
+    max-width: 1000px; /* Adjust max-width as needed */
+  }
+  
+  .mainStart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .askQuestion {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .formSub {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+  }
+  
+  .partTitle {
+    margin-bottom: 1rem;
+  }
+  
+  .nameOfTiTle {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .inputSize {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .textareaSize {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 150px; /* Adjust the height as needed */
+  }
+  
+  .submittingBut {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .thisBut {
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .thisBut:hover {
+    background-color: #0056b3;
+  }
+
+  /* Card Container */
+.cardDatePost {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Card */
+  .takeSub {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  
+  /* Card Title */
+  .takeSub .newformSubthis {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  
+  /* Liked Icon */
+  .takeSub .newformSubthis .title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+    
+  }
+  
+  /* Description, Tags, Created At */
+  .takeSub .newformSubthis .nameOfTiTle.theSize {
+    font-weight: 500;
+    margin-top: 10px;
+    background-color: darkslategrey;
+    color: #fff;
+    height: 30px;
+  }
+  
+  /* Delete Button */
+  .takeSub .deleterBut {
+    margin-top: 10px;
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right; /* Right-aligned */
+  }
+  
+  .takeSub .deleterBut:hover {
+    background-color: #c9302c;
+    transition: all 0.3s;
+  }
+  
+  /* Discussion Card Container */
+.discussDataCard {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+}
+  
+  /* Discussion Card */
+  .theBorder {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  /* Posted By */
+  .sizeSel {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  /* Like Button */
+  .checkMark {
+    color: #777;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .checkMark:hover {
+    color: #e74c3c;
+  }
+  
+  /* Title */
+  .checkMark + .checkMark {
+    margin-left: 20px;
+  }
+  
+  .checkMark + .checkMark::before {
+    content: "•";
+    margin: 0 10px;
+  }
+  
+  /* Card Title */
+  .checkMark + .checkMark + .checkMark + .checkMark {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* Description */
+  .withTake {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  /* Tags */
+  .tagCheck {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #3498db;
+  }
+  
+  /* Likes Count */
+  .withTake.theSize {
+    font-size: 20px;
+    color: #777;
+  }
+  
+  /* Comments */
+  .theSize {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  /* Comment Card */
+  .theBorder .theBorder {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+  }
+  
+  /* Comment User */
+  .sizeselcted {
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: -15px;
+  }
+  
+  .contentPlace{
+    align-items: center;
+    justify-content: center;
+    margin-left: 17%;
+  }
+
+.holdFinalComment{
+    width: 500px;
+}

@@ -1,0 +1,39 @@
+/* This code is made by Anneshu Nag, Student ID- 2210994760  */
+/*                    Dated- 26/08/2023                      */
+
+/* Styling for the 'intro_area' class */
+.intro_area {
+  position: relative;
+}
+
+/* Styling for the 'head_photo' class */
+.head_photo {
+  margin-top: 10px;
+  width: 100%;
+  display: block;
+}
+
+/* Styling for the 'text_main' class within the 'intro_area' container */
+.intro_area .text_main {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* Set the font size to 2rem */
+  font-size: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 400px;
+  transition: all 0.4s ease-in;
+  opacity: 0;
+}
+
+/* Styling for the 'text_main' class when the 'intro_area' container is hovered */
+.intro_area:hover .text_main {
+  opacity: 0.8;
+}

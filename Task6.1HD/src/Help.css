@@ -1,0 +1,14 @@
+/* Help.css */
+.help-container {
+    margin-top: 10px;
+    display: inline-block;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure it covers the entire viewport height */
+  }
+  
+  .help-content {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 600px; /* Optionally set a max-width for the content */
+  }
+  
