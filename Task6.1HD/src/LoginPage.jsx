@@ -16,6 +16,7 @@ function Login({ onLoginSuccess }) {
       const { user } = await signInWithGooglePopup(); // Sign in with Google
       const userDocRef = await createuserdocfromAuthforGoogle(user); // Create user document in Firestore
       console.log('User document reference:', userDocRef);
+      localStorage.setItem('userId', userDocRef);
 
       // Redirect to the home page after successful Google login
       onLoginSuccess();
@@ -46,8 +47,9 @@ function Login({ onLoginSuccess }) {
       // Check if the login was successful
       if (response.user) {
         console.log('Login successful');
+        console.log(response.user);
         setLoginError(null); // Clear any previous login error
-
+        localStorage.setItem('userId', response.user.uid);
         // Redirect to the home page after successful user login
         onLoginSuccess();
         navigate('/home');

@@ -18,7 +18,7 @@ import { doc, getDoc } from 'firebase/firestore';
 import FreeAccount from "./routes/subscriptionpage/FreeAccountMessage";
 import Post from "./routes/discussionpage/PostOnDiscuss";
 import Question from "./routes/discussionpage/DiscussionMain";
-// import Notification from "./routes/discussionpage/Notification";
+
 function App() {
   const navigate = useNavigate();
   const location = useLocation();
